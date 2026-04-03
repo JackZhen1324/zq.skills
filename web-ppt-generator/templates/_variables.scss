@@ -1,0 +1,133 @@
+// ========================================
+// 主题色
+// ========================================
+$color-primary: #C00000;
+$color-primary-dark: #9A0000;
+$color-primary-light: #FFE5E5;
+$color-primary-faded: rgba(192, 0, 0, 0.1);
+
+// ========================================
+// 辅助色
+// ========================================
+$color-secondary: #003D7A;
+$color-secondary-light: #4A90E2;
+$color-secondary-bg: #E6F2FF;
+
+// ========================================
+// 功能色
+// ========================================
+$color-success: #00B050;
+$color-success-bg: #E8F5E9;
+$color-warning: #FFA500;
+$color-warning-bg: #FFF8E1;
+$color-danger: #FF0000;
+$color-danger-bg: #FFEBEE;
+$color-info: #2196F3;
+$color-info-bg: #E3F2FD;
+
+// ========================================
+// 文字色
+// ========================================
+$text-primary: #272525;
+$text-secondary: #666666;
+$text-muted: #999999;
+$text-disabled: #CCCCCC;
+$text-inverse: #FFFFFF;
+
+// ========================================
+// 背景色
+// ========================================
+$bg-page: #F5F5F5;
+$bg-card: #FFFFFF;
+$bg-table-odd: #CFD5EA;
+$bg-table-even: #E9EBF5;
+$bg-hover: #E6F2FF;
+$bg-selected: #FFF5F5;
+
+// ========================================
+// 边框色
+// ========================================
+$border-default: #E6F2FF;
+$border-hover: #C00000;
+$border-highlight: #C00000;
+$border-divider: #E6F2FF;
+
+// ========================================
+// 阴影
+// ========================================
+$shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.08);
+$shadow-md: 0 4px 16px rgba(0, 0, 0, 0.1);
+$shadow-lg: 0 8px 32px rgba(192, 0, 0, 0.12);
+$shadow-glow: 0 4px 12px rgba(192, 0, 0, 0.15);
+
+// ========================================
+// 圆角
+// ========================================
+$radius-sm: 4px;
+$radius-md: 8px;
+$radius-lg: 12px;
+
+// ========================================
+// 间距
+// ========================================
+$spacing-xs: 4px;
+$spacing-sm: 8px;
+$spacing-md: 16px;
+$spacing-lg: 24px;
+$spacing-xl: 32px;
+
+// ========================================
+// CSS 变量导出
+// ========================================
+:root {
+  --color-primary: #{$color-primary};
+  --color-primary-dark: #{$color-primary-dark};
+  --color-primary-light: #{$color-primary-light};
+  --color-primary-faded: #{$color-primary-faded};
+  
+  --color-secondary: #{$color-secondary};
+  --color-secondary-light: #{$color-secondary-light};
+  --color-secondary-bg: #{$color-secondary-bg};
+  
+  --color-success: #{$color-success};
+  --color-success-bg: #{$color-success-bg};
+  --color-warning: #{$color-warning};
+  --color-warning-bg: #{$color-warning-bg};
+  --color-danger: #{$color-danger};
+  --color-danger-bg: #{$color-danger-bg};
+  --color-info: #{$color-info};
+  --color-info-bg: #{$color-info-bg};
+  
+  --text-primary: #{$text-primary};
+  --text-secondary: #{$text-secondary};
+  --text-muted: #{$text-muted};
+  --text-disabled: #{$text-disabled};
+  --text-inverse: #{$text-inverse};
+  
+  --bg-page: #{$bg-page};
+  --bg-card: #{$bg-card};
+  --bg-table-odd: #{$bg-table-odd};
+  --bg-table-even: #{$bg-table-even};
+  --bg-hover: #{$bg-hover};
+  --bg-selected: #{$bg-selected};
+  
+  --border-default: #{$border-default};
+  --border-hover: #{$border-hover};
+  --border-highlight: #{$border-highlight};
+  --border-divider: #{$border-divider};
+  
+  --shadow-sm: #{$shadow-sm};
+  --shadow-md: #{$shadow-md};
+  --shadow-lg: #{$shadow-lg};
+  --shadow-glow: #{$shadow-glow};
+  
+  --radius-sm: #{$radius-sm};
+  --radius-md: #{$radius-md};
+  --radius-lg: #{$radius-lg};
+  
+  --spacing-xs: #{$spacing-xs};
+  --spacing-sm: #{$spacing-sm};
+  --spacing-md: #{$spacing-md};
+  --spacing-lg: #{$spacing-lg};
+  --spacing-xl: #{$spacing-xl};
+}
