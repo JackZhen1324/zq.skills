@@ -1,0 +1,50 @@
+:root {
+  /* 主题色 */
+  --color-primary: #C00000;
+  --color-primary-dark: #9A0000;
+  --color-primary-light: #FFE5E5;
+  --color-primary-faded: rgba(192, 0, 0, 0.1);
+
+  /* 辅助色 */
+  --color-secondary: #003D7A;
+  --color-secondary-light: #4A90E2;
+  --color-secondary-bg: #E6F2FF;
+
+  /* 功能色 */
+  --color-success: #00B050;
+  --color-success-bg: #E8F5E9;
+  --color-warning: #FFA500;
+  --color-warning-bg: #FFF8E1;
+  --color-danger: #FF0000;
+  --color-danger-bg: #FFEBEE;
+  --color-info: #2196F3;
+  --color-info-bg: #E3F2FD;
+
+  /* 文字色 */
+  --text-primary: #272525;
+  --text-secondary: #666666;
+  --text-muted: #999999;
+  --text-disabled: #CCCCCC;
+  --text-inverse: #FFFFFF;
+
+  /* 背景色 */
+  --bg-page: #F5F5F5;
+  --bg-card: #FFFFFF;
+  --bg-table-odd: #CFD5EA;
+  --bg-table-even: #E9EBF5;
+  --bg-hover: #E6F2FF;
+
+  /* 边框色 */
+  --border-default: #E6F2FF;
+  --border-highlight: #C00000;
+
+  /* 阴影 */
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.08);
+  --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.1);
+  --shadow-glow: 0 4px 12px rgba(192, 0, 0, 0.15);
+
+  /* 圆角 */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+}

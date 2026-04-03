@@ -358,8 +358,10 @@ const DEFAULT_DIVIDER = '/divider.jpeg';
 const DEFAULT_BACKGROUND = '/background.jpeg';
 ```
 
-默认资源位于：
-- `/Users/zqian15/Documents/电信工作相关/智算软研/2月经分汇报/research-dashboard/public/`
+默认资源位于本 skill 的 `templates/public/` 目录：
+- `logo.png` — 放映模式右上角浮动显示的 Logo
+- `divider.jpeg` — 分割线图片
+- `background.jpeg` — 封面页背景图
 
 ---
 
@@ -409,4 +411,4 @@ AI: [开始创建项目...]
 
 ## 参考文档
 
-详细设计规范请参考：`/Users/zqian15/.qclaw/workspace/ppt-template-spec.md`
+详细设计规范请参考本 skill 目录下的 `DESIGN_SPEC.md`。

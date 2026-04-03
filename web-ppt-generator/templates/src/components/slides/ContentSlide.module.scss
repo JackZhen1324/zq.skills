@@ -1,0 +1,88 @@
+.slide {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background: var(--bg-card);
+  border-bottom: 6px solid var(--color-primary);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 28px 48px 0;
+  gap: 16px;
+}
+
+.number { font-size: 56px; font-weight: 700; color: #ccc; line-height: 1; }
+.title  { font-size: 32px; font-weight: 600; color: var(--color-primary); }
+
+.divider {
+  height: 10px;
+  margin-top: -8px;
+  img { width: 100%; height: 10px; object-fit: fill; display: block; }
+}
+
+.content { flex: 1; padding: 32px 48px; overflow: hidden; }
+
+// Metric Cards
+.metrics {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.card {
+  padding: 20px;
+  border-radius: var(--radius-lg);
+  background: var(--bg-page);
+  border: 1px solid var(--border-default);
+  text-align: center;
+}
+
+.cardValue { font-size: 32px; font-weight: 700; color: var(--text-primary); margin-bottom: 4px; }
+.cardLabel { font-size: 14px; color: var(--text-secondary); margin-bottom: 6px; }
+.cardTrend { font-size: 13px; color: var(--color-success); }
+
+.status_success .cardValue { color: var(--color-success); }
+.status_warning .cardValue { color: var(--color-warning); }
+.status_danger  .cardValue { color: var(--color-danger); }
+
+// Text Block
+.textBlock {
+  border: 2px dashed var(--border-highlight);
+  border-radius: var(--radius-md);
+  padding: 24px;
+  position: relative;
+  margin-top: 16px;
+
+  p {
+    font-size: 16px;
+    color: var(--text-primary);
+    line-height: 1.8;
+  }
+}
+
+// List
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 16px;
+
+  li {
+    font-size: 16px;
+    color: var(--text-primary);
+    padding-left: 20px;
+    position: relative;
+    line-height: 1.6;
+
+    &::before {
+      content: '●';
+      color: var(--color-primary);
+      position: absolute;
+      left: 0;
+    }
+  }
+}
